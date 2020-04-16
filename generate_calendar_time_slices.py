@@ -44,13 +44,13 @@ class Month(IntEnum):
 
 ### Settings
 
-OUT_RESULTS_FOLDER_PATH = '/path/to/write'
+OUT_RESULTS_FOLDER_PATH = '/home/cody/Dropbox/Projects/Current/commit-history-generator'
 
 # [start, end)
 
 START_TIME = datetime.datetime(2017, Month.JUL, 3)
 
-END_TIME = datetime.datetime(2019, Month.FEB, 5)
+END_TIME = datetime.datetime(2018, Month.FEB, 5)
 
 TIME_SLICES_PER_DAY = 24
 
